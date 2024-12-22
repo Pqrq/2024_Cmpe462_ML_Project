@@ -18,11 +18,21 @@ Option 2: Using Google Colab (recommended)
 
 Note that inside our model, our only source of randomness is at "split_dataset()" function.
 Inside this function, we have the lines "
+
     seed = 462
+    
     random.seed(seed)
+    
     np.random.seed(seed)
+    
     torch.manual_seed(seed)
+    
     torch.cuda.manual_seed(seed)
+    
     torch.backends.cudnn.deterministic = True
+    
     torch.backends.cudnn.benchmark = False
-", which sets the seed to a constant, providing reproducibliity of our results.
+    
+", 
+
+which sets the seed to a constant, providing reproducibliity of our results.
