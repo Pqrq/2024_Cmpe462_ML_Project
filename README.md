@@ -33,6 +33,4 @@ Inside this function, we have the lines "
     
     torch.backends.cudnn.benchmark = False
     
-", 
-
-which sets the seed to a constant, providing reproducibliity of our results.
+", which sets the seed to a constant, providing reproducibliity of our results.
