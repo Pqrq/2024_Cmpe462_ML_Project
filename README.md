@@ -34,3 +34,9 @@ Inside this function, we have the lines "
     torch.backends.cudnn.benchmark = False
     
 ", which sets the seed to a constant, providing reproducibliity of our results.
+
+# Project Details
+
+For more details about this project, see the file "CmpE 462 Project Report.pdf"
+
+
