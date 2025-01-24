@@ -37,6 +37,6 @@ Inside this function, we have the lines "
 
 # Project Details
 
-For more details about this project, see the file "CmpE 462 Project Report.pdf"
+For more details about this project, see the file "CmpE 462 Project Report.pdf", along with our codes and dataset.
 
 
